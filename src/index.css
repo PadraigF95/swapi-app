@@ -1,13 +1,120 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aqua;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.search-container{
+  padding-top: 10px;
+  padding-bottom:40px;
+ 
+}
+
+.searchbar{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.search-text{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.search-input{
+ width:15%;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border: 2px solid;
+}
+
+.table-container{
+  overflow-x: auto;
+  margin-right: 2.5%;
+  margin-left: 2.5%
+}
+
+
+.table{
+  width: 100%;
+  background-color: #424242;
+  
+}
+.container{
+  width: 100%;
+}
+
+.name-heading,
+.height-heading,
+.mass-heading,
+.created-heading,
+.edited-heading,
+.homeworld-heading {
+  text-decoration: underline;
+  
+  
+}
+
+.character-name{
+text-align: center;
+font-weight: 800;
+
+
+}
+
+.character-height{
+text-align: center;
+
+}
+
+.character-mass{
+  text-align: center;
+  
+}
+
+.character-created{
+  text-align: center;
+  
+}
+
+.character-edited{
+  text-align: center;
+  
+}
+
+.character-homeworld{
+  text-align: center;
+  
+
+}
+
+td{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+
+tr{
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+th{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+#table, th, td {
+  border: 2px solid;
+  border-color: black;
+}
+
+.loading-class{
+ display: flex;
+ justify-content: center;
+ 
 }
