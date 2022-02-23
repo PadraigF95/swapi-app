@@ -1,1 +1,1 @@
-React app created using the swapi api to show character attributes that are put into a table
+React app created using swapi to show character attributes from Star Wars films that are than put into a table
